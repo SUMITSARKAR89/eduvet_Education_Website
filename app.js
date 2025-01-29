@@ -14,16 +14,7 @@ closeIcon.addEventListener('click', () => {
 });
 
 
-const linkButton = document.querySelectorAll('.list-link');
-// const dropdownContentBtn = document.querySelectorAll('.dropdown-content a');
-linkButton.forEach((btn ) => {
-    btn.addEventListener('click', () => {
-        linkButton.forEach( btn => {
-            btn.classList.remove('active-link');
-        })
-        btn.classList.add('active-link');
-    });
-});
+
 
 
 const historyTwo = document.querySelector('.history-two');
@@ -41,3 +32,14 @@ sliderTwoPrev.addEventListener('click', () => {
     historyTwo.scrollLeft -= 1280;
     
 });
+
+
+
+// -------------contact btn================================
+const faqContent = document.querySelectorAll('.faq-content');
+
+        faqContent.forEach( faqs => {
+            faqs.addEventListener("click", () => {
+                faqs.classList.toggle("active-acc");
+            })
+        });
