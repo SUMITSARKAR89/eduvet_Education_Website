@@ -1,0 +1,76 @@
+:root{
+    /* background color  */
+    ---primary-color:#FFFFFF;
+    ---secondary-color:#FFF3F5;
+    ---black-color:#111111;
+    ---red-color:#641320;
+     
+    /* text-color  */
+    --text-color: #959595;
+   
+    /* transition  */
+    --transition-1: 0.25s ease;
+    --transition-2: 0.5s ease;
+   
+
+
+     /* fontsize  */
+     --font-h1:4rem;
+     --font-h2:3rem;
+     --font-h3:2.5rem;
+     --font-h4:2rem;
+
+     --font-h5:1.75rem;
+     --font-h6:1.625rem;
+     --font-h6-new:1.3rem;
+
+     --font-p:1rem;
+     --font-p-semi:1.125rem;
+     --font-p-small:0.875rem;
+    
+
+    }
+    h1{
+       font-size: var(--font-h1);
+    }
+    h2{
+       font-size: var(--font-h2);
+    }
+    h3{
+       font-size: var(--font-h3);
+    }
+    h4{
+        font-size: var(--font-h4);
+     }
+    h5{
+       font-size: var(--font-h5);
+    }
+    h6{
+       font-size: var(--font-h6);
+    }
+    p{
+       font-size: var(--font-p);
+
+    }
+
+    @media (max-width:1020px){
+        .head .headBtn{
+            display: none;
+        }
+    }
+
+    @media (max-width:980px){
+        .head .headBtn{
+            display: none;
+        }
+        nav{
+            display: none;
+        }
+        .welcome-head{
+            display: none;
+        }
+       
+        #menuIcon{
+            display: block;
+        }
+    }
