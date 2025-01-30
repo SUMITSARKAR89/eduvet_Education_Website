@@ -52,6 +52,43 @@
        font-size: var(--font-p);
 
     }
+    @media (max-width:1400px){
+        body{
+            width: 98%;
+            background-color: var(---secondary-color);
+        }
+       
+    }
+    @media(max-width:1280px){
+        .founder .founder-container{
+            gap: 30px;
+        }
+        .round-logos{
+            top: -20px;
+        }
+        .founder-content h2,
+        .academic h2{
+        max-width: 100%;
+        width: 100%;
+       
+        }
+        .footer-contact-form{ 
+            width: 95%;
+            height: 55vh;
+            bottom: -6%;
+        }
+        .footer-contact-form .footer-contact-container{
+            gap: 20px;
+        }
+        .programe-container{
+           
+            grid-template-columns: repeat(3, 1fr);
+          
+        }
+        .events .events-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 
     @media (max-width:1020px){
         .head .headBtn{

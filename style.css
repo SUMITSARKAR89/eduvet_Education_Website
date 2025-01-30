@@ -1044,6 +1044,7 @@ nav li .list-link:hover{
     padding: 0;
     gap: 15px;
     z-index: 1;
+    max-width: 100%;
     transition: var(--transition-1);
 }
 .academic-card .academic-content h4{
