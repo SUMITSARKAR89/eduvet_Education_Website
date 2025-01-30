@@ -36,10 +36,3 @@ sliderTwoPrev.addEventListener('click', () => {
 
 
 // -------------contact btn================================
-const faqContent = document.querySelectorAll('.faq-content');
-
-        faqContent.forEach( faqs => {
-            faqs.addEventListener("click", () => {
-                faqs.classList.toggle("active-acc");
-            })
-        });

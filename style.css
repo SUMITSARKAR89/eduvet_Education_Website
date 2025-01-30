@@ -1747,6 +1747,7 @@ footer{
     font-size: var(--font-h2);
     font-weight: 800;
     color: transparent;
+    max-width: 100%;
     -webkit-text-stroke: 1px var(---red-color);
  }
  .history-card p{
@@ -2442,6 +2443,7 @@ color: var(---primary-color);
     height: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 .card1 h6{

@@ -481,7 +481,31 @@
         
     </footer>
 
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
+     <script>
+        const faqContent = document.querySelectorAll('.faq-content');
+
+    faqContent.forEach( faqs => {
+    faqs.addEventListener("click", () => {
+        faqs.classList.toggle("active-acc");
+        })
+    });
+
+    const responsiveNav = document.querySelector('.responsive-navbar');
+const menuIcon = document.querySelector('#menuIcon');
+const closeIcon = document.querySelector('#close');
+
+menuIcon.addEventListener('click', () => {
+    responsiveNav.style.top = "0";
+    menuIcon.style.display = 'none';
+    
+});
+closeIcon.addEventListener('click', () => {
+    responsiveNav.style.top = "-150%";
+    menuIcon.style.display = 'block';
+});
+
+     </script>
     
     
 </body>
